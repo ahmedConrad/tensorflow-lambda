@@ -27,7 +27,7 @@
     "build": "node build.js"
   },
   "dependencies": {
-    "iltorb": "^2.4.2",
+    "iltorb": "^2.4.5",
     "tar": "^4.4.8"
   }
 }

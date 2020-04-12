@@ -13,4 +13,4 @@ npm install
 # inflate all the files built in /tmp/tfjs-node
 # and compress it with brotli
 cd ../../
-node ./scripts/compress.js
+node ./scripts/compress_local.js
