@@ -18,6 +18,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: ./scripts/build.sh
+      - run: ./scripts/compress.sh
 
   publish-npm:
     needs: build
