@@ -1,2 +1,2 @@
 #!/bin/bash
-node ./scripts/compress_local.js
+node ./scripts/compress.js
