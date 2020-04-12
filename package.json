@@ -1,7 +1,7 @@
 {
   "name": "tensorflow-lambda-2",
   "description": "Run tensorflow on lambda",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "main": "index.js",
   "author": "lucleray",
   "homepage": "https://github.com/lucleray/tensorflow-lambda#readme",
