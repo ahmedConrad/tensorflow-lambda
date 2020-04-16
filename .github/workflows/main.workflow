@@ -1,6 +1,6 @@
 workflow "build and publish" {
   on = "push"
-  resolves = ["publish"]
+  resolves = ["build"]
 }
 
 action "tag" {
@@ -14,9 +14,3 @@ action "build" {
   runs = ["./scripts/build.sh"]
 }
 
-action "publish" {
-  needs = "build"
-  uses = "actions/npm@master"
-  args = "publish --access public"
-  secrets = ["NPM_AUTH_TOKEN"]
-}
