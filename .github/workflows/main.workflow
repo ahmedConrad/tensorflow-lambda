@@ -10,7 +10,7 @@ action "tag" {
 
 action "build" {
   needs = "tag"
-  uses = "docker://lambci/lambda:build-nodejs8.10"
+  uses = "docker://lambci/lambda:build-nodejs10.x"
   runs = ["./scripts/build.sh"]
 }
 
